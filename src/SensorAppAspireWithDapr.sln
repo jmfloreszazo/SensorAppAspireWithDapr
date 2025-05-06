@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorAppAspireWithDapr.AppHost", "SensorAppAspireWithDapr.AppHost\SensorAppAspireWithDapr.AppHost.csproj", "{8F20BF72-5F4F-481C-834A-746198EF3DC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorAppAspireWithDapr.ServiceDefaults", "SensorAppAspireWithDapr.ServiceDefaults\SensorAppAspireWithDapr.ServiceDefaults.csproj", "{20269C02-F8B6-6BB1-9D15-5B9C97A20F28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorService", "SensorService\SensorService.csproj", "{9078669B-062A-B32C-B4FF-FD3161F31269}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertService", "AlertService\AlertService.csproj", "{632E6D72-68A0-22A4-94ED-9B05B3411A87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F20BF72-5F4F-481C-834A-746198EF3DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F20BF72-5F4F-481C-834A-746198EF3DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F20BF72-5F4F-481C-834A-746198EF3DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F20BF72-5F4F-481C-834A-746198EF3DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20269C02-F8B6-6BB1-9D15-5B9C97A20F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20269C02-F8B6-6BB1-9D15-5B9C97A20F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20269C02-F8B6-6BB1-9D15-5B9C97A20F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20269C02-F8B6-6BB1-9D15-5B9C97A20F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9078669B-062A-B32C-B4FF-FD3161F31269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9078669B-062A-B32C-B4FF-FD3161F31269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9078669B-062A-B32C-B4FF-FD3161F31269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9078669B-062A-B32C-B4FF-FD3161F31269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632E6D72-68A0-22A4-94ED-9B05B3411A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632E6D72-68A0-22A4-94ED-9B05B3411A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632E6D72-68A0-22A4-94ED-9B05B3411A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632E6D72-68A0-22A4-94ED-9B05B3411A87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16094B82-2A1B-4FD8-80C3-516F26459755}
+	EndGlobalSection
+EndGlobal
